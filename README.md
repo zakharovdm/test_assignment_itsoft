@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Тестовое задание для компании ИТ-софт
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Проект](https://www.example.com)
 
-## Available Scripts
+### Установка зависимостей
+Для установки зависимостей, выполните команду:
+```sh
+$ npm i
+```
 
-In the project directory, you can run:
+### Запуск Development сервера
+Чтобы запустить сервер для разработки, выполните команду:
+```sh
+npm start
+```
 
-### `npm start`
+### Создание билда
+Чтобы выполнить production сборку, выполните команду: 
+```sh
+npm run build
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Задание
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Сверстайте страницу. 
+Макет : 
+https://www.figma.com/file/XB2e6qOPFFYmJUwpAyespX/test-word?type=design&node-id=0-1&mode=design&t=Tr22rlNlKb7nxdC0-0
+Реализация задания на React
 
-### `npm test`
+Наименования классов должны задаваться по БЭМ.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+В блоке header слайдер должен переключаться по навигации. Картинки на 3 слайда в макете имеются.
 
-### `npm run build`
+В блоке header при нажатии на кнопку «Обратная связь» должно открываться модальное окно с формой обратной связи. Поля формы: Фамилия - text, Имя - text, телефон – number, электронная почта – email, кнопка добавления файла – file, кнопка отправить  - button. Форма с валидацией данных, с ограничением ввода символов (min, max), указано правило обязательного заполнения всех полей. Прикрепленные файлы должны отправляться на email. В форме так же должна присутствовать кнопка закрытия модального окна, которая работает. Дизайн формы обратной связи на ваше усмотрение.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В блоке header при нажатии на кнопку поиска, должно выходить отдельное поле для поиска информации по сайту.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+В верстке используйте flex или grid. Если будете использовать оба варианта в разных блоках – это будет плюсом.
+Выполните адаптив макета так, чтобы верстка не ломалась при уменьшении расширении, а также чтобы не появлялась нижняя прокрутка до ширины 360px.
+В верстке используйте pixel perfect. 
+Выложите проект на гитхаб и опубликуйте на gh-pages для просмотра визуально с ссылкой на репозиторий. Если нет гитхаба, пришлите архив бэкапа проекта.
