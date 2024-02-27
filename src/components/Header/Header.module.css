@@ -1,0 +1,107 @@
+.header {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  padding: 30px 40px 0 40px;
+  background: rgba(6, 7, 7, 0.85);
+}
+
+.header__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.header__logo_inner {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.header__phone_inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__search_inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.header__logo_text {
+  font-size: 18px;
+  line-height: 20px;
+  color: #939393;
+}
+
+.header__phone {
+  font-size: 16px;
+  color: #999999;
+  text-decoration: none;
+}
+
+.header__search_button {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #494949;
+  cursor: pointer;
+}
+
+.header__description_block {
+  width: 592px;
+}
+
+.header__description_block h1 {
+  font-family: 'Orenburg';
+  font-size: 60px;
+  color: #fff;
+}
+
+.header__nav_list {
+  list-style-type: none;
+}
+
+.header__nav_list li {
+  position: relative;
+  margin-bottom: 49px;
+}
+
+.header__nav_list li::after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: -20px;
+  width: 375px;
+  height: 1px;
+  background: linear-gradient(90deg, #4b4b4b 0%, rgba(38, 38, 37, 0) 100%);
+}
+
+.header__nav_link {
+  position: relative;
+  font-size: 20px;
+  color: #bebebe;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.header__nav_link::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-right: 5px;
+}
+
+.header__nav_link:hover {
+  opacity: 0.8;
+}
+
+
