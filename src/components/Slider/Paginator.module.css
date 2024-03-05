@@ -1,0 +1,18 @@
+.paginator {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.paginator__dot {
+  width: 31px;
+  height: 2px;
+  background: #525252;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
+.paginator__dot--active {
+  background: #f5702c;
+}

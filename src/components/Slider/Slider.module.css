@@ -1,0 +1,37 @@
+.slider {
+  position: relative;
+}
+
+.slider__slide img {
+  position: absolute;
+  left: -643px;
+  top: -149px;
+  width: 700px;
+  height: 750px;
+  
+}
+
+.slider__prevBtn,
+.slider__nextBtn {
+  background: transparent;
+  border: none;
+}
+
+.slider__nextBtn {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+  transform: rotate(180deg);
+}
+
+.slider__prevBtn {
+  position: absolute;
+  left: -1355px;
+  bottom: -60px;
+}
+
+.slider__innerPaginator {
+  position: absolute;
+  left: -1280px;
+  bottom: -50px;
+}

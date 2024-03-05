@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin-bottom: 67px;
 }
 
 .header__logo_inner {
@@ -50,14 +51,22 @@
   cursor: pointer;
 }
 
+.header__description_inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 97px;
+}
+
 .header__description_block {
   width: 592px;
+  padding-left: 62px;
 }
 
 .header__description_block h1 {
   font-family: 'Orenburg';
   font-size: 60px;
   color: #fff;
+  margin-bottom: 54px;
 }
 
 .header__nav_list {
@@ -72,11 +81,15 @@
 .header__nav_list li::after {
   content: "";
   position: absolute;
-  bottom: -24px;
+  bottom: -25px;
   left: -20px;
   width: 375px;
   height: 1px;
   background: linear-gradient(90deg, #4b4b4b 0%, rgba(38, 38, 37, 0) 100%);
+}
+
+.header__nav_list li:last-child:after {
+  display: none;
 }
 
 .header__nav_link {
