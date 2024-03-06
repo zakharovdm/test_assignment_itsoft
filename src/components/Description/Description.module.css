@@ -1,0 +1,82 @@
+.description {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+  padding-bottom: 99px;
+}
+
+.description__inner {
+  display: grid;
+  grid-template-columns: 649px 407px;
+  gap: 122px;
+  justify-content: center;
+}
+
+.description__company {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  color: #151716;
+}
+
+.description__firstPart {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.description__secondPart {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.description__thirdPart {
+  display: inline-block;
+}
+
+.description__firstParagraph::first-letter {
+  position: relative;
+  color: transparent;
+}
+
+.description__firstParagraph::before {
+  content: '';
+  background-image: url('../../assets/firstLetter.svg');
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 53px;
+  position: absolute;
+}
+
+.description__firstWord {
+  color: #fe5b00;
+  margin-left: 35px;
+}
+
+.description__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.description__listItem {
+  display: flex;
+  align-items: start;
+  gap: 28px;
+  margin-bottom: 42px;
+}
+
+.description__itemTitle {
+  font-family: 'Orenburg';
+  font-weight: 700;
+  font-size: 16px;
+  color: #151716;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.description__itemText {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 15px;
+  color: #7b7b7b;
+  margin: 0;
+}

@@ -17,8 +17,8 @@ const Slider = ({ data }) => {
   };
 
   const handlePageChange = (page) => {
-    let n = page - currentIndex;
-    setCurrentIndex(currentIndex + n);
+    let slideDifference = page - currentIndex;
+    setCurrentIndex(currentIndex + slideDifference);
 };
 
   return (
