@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: 649px 407px;
   gap: 122px;
-  justify-content: center;
 }
 
 .description__company {
@@ -55,6 +54,7 @@
 .description__list {
   list-style-type: none;
   padding: 0;
+  justify-self: end;
 }
 
 .description__listItem {
