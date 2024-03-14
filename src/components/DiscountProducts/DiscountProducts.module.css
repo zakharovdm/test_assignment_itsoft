@@ -1,0 +1,85 @@
+.discountProducts {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  padding-top: 80px;
+}
+
+.discountProducts__title {
+  font-family: 'Orenburg', sans-serif;
+  font-size: 32px;
+  color: #151716;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.discountProducts__productTitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 34px;
+}
+
+.discountProducts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #ececec;
+}
+
+.discountProducts__item {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  padding-top: 24px;
+  padding-bottom: 28px;
+  padding-right: 40px;
+  border-right: 1px solid #ececec;;
+}
+
+.discountProducts__item:last-child {
+  border-right: none;
+}
+
+.discountProducts__link {
+  text-decoration: none;
+  color: #151716;
+}
+
+.discountProducts__img {
+  margin-bottom: 28px;
+}
+
+.discountProducts__innerPrice {
+  display: flex;
+  gap: 9px;
+}
+
+.discountProducts__price {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+.discountProducts__priceWithoutDiscount {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #a5a5a5;
+  margin: 0;
+}
+
+.discountProducts__amountDiscount {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+  width: 60px;
+  height: 36px;
+  background: #ff7028;
+}
