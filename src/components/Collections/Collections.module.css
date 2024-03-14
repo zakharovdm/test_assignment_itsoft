@@ -1,0 +1,106 @@
+.collections {
+  background: rgba(6, 7, 7, 0.85);
+}
+
+.collections__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collections__description {
+  display: grid;
+  padding-top: 65px;
+  padding-right: 140px;
+  padding-bottom: 33px;
+}
+
+.collections__title {
+  font-family: 'Orenburg';
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.collections__text {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 18px;
+  color: #bebebe;
+}
+
+.collections__link {
+  position: relative;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 16px;
+  color: #bebebe;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  align-self: end;
+  margin-left: 22px;
+}
+
+.collections__link::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  margin-right: 5px;
+}
+
+.collections__link:hover {
+  opacity: 0.8;
+}
+
+.collections__link::after {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -20px;
+  width: 375px;
+  height: 1px;
+  background: linear-gradient(90deg, #4b4b4b 0%, rgba(38, 38, 37, 0) 100%);
+}
+
+.collections__product {
+  position: relative;
+  font-family: 'PT Sans';
+  font-weight: 700;
+  color: #fff;
+}
+
+.collections__productInner {
+  position: absolute;
+  top: 76px;
+  left: 75px;
+  z-index: 1;
+}
+
+.collections__productTitle {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.collections__productPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 24px;
+  width: 140px;
+  height: 50px;
+  background-color: #ff7028;
+  border-radius: 2px;
+}
+
+.collections__productImg {
+  clip-path: polygon(3% 0, 100% 0, 100% 100%, 0 100%);
+}
